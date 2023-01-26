@@ -1,11 +1,12 @@
 @import url(https://fonts.bunny.net/css?family=crimson-pro:200|lora:500,700|montserrat:400,500,700);
 
 :root {
-	--logo-font: 'Crimson Pro', serif;
-	--heading-font: 'Lora', serif;
-	--body-font: 'Montserrat', sans-serif;
+	--logo-font: "Crimson Pro", serif;
+	--heading-font: "Lora", serif;
+	--body-font: "Montserrat", sans-serif;
 	--black: hsl(270, 4%, 9%);
 	--gray: hsl(270, 4%, 75%);
+	--gray-2: hsl(0, 0%, 51%);
 	--white: hsl(0, 0%, 100%);
 	--text-xxs: 10px;
 	--text-xs: 12px;
@@ -64,6 +65,7 @@ li a:hover {
 }
 
 .navbar {
+	background-color: var(--black);
 	position: sticky;
 	top: 0;
 	width: 100%;
@@ -114,7 +116,7 @@ li a:hover {
 .hamburger-menu-icon::before,
 .hamburger-menu-icon::after {
 	background-color: var(--white);
-	content: '';
+	content: "";
 	display: block;
 	height: 100%;
 	position: absolute;
@@ -175,3 +177,52 @@ li a:hover {
 .btn span {
 	padding-left: 10px;
 }
+
+.credit {
+	background-color: var(--black);
+	box-shadow: var(--shadow);
+	width: 300px;
+	padding: 20px;
+	position: absolute;
+	top: 80%;
+	right: 2%;
+}
+
+.designer {
+	display: flex;
+	align-items: center;
+}
+
+.designer-details {
+	font-weight: var(--font-medium);
+}
+
+.designer-details h3{
+	font-size: var(--text-xs);
+
+}
+
+.designer-details p {
+	font-size: var(--text-xxs);
+	color: var(--gray-2);
+}
+
+.avatar {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
+h2 {
+	font-family: var(--heading-font);
+	font-weight: var(--font-bold);
+	font-size: var(--text-normal);
+	margin: 25px 0 10px;
+	width: 300px;
+}
+
+main {
+	position: relative;
+}
+
