@@ -27,6 +27,7 @@ body {
 	font-size: var(--text-sm);
 	color: var(--white);
 	background-color: var(--black);
+	padding: 0 12px;
 }
 
 header {
@@ -76,7 +77,6 @@ li a:hover {
 	text-transform: uppercase;
 	border: 1px solid var(--white);
 	padding: 8px;
-	margin-left: 12px;
 
 }
 
@@ -98,7 +98,7 @@ li a:hover {
 
 .hamburger-menu-label {
 	cursor: pointer;
-	padding: 10px 12px;
+	padding: 10px 0;
 	float: right;
 }
 
@@ -150,4 +150,28 @@ li a:hover {
 .hamburger-menu:checked ~ .hamburger-menu-label .hamburger-menu-icon::after {
 	transform: rotate(45deg);
 	top: 0;
+}
+
+.hero-text h1 {
+	font-family: var(--heading-font);
+	font-weight: var(--font-medium);
+	font-size: var(--text-xl);
+	margin-bottom: 25px;
+}
+
+.hero-text p {
+	font-size: var(--text-sm);
+	width: 250px;
+	margin-bottom: 25px;
+}
+
+.btn {
+	font-weight: var(--font-bold);
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.btn span {
+	padding-left: 10px;
 }
