@@ -1,6 +1,4 @@
-<!-- Please update value in the {}  -->
-
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Interior Design Consultant</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://rb-interior-consultant.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/ritabradley/interior-consultant">
       Solution
     </a>
     <span> | </span>
@@ -27,48 +25,39 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](./images/interior-consultant.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+### How I approached this challenge
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+If you want to see a demo of my solution, you can find it [here](https://rb-interior-consultant.netlify.app/).
 
-### Built With
+It took about a 6 hours in total to complete this project with the mobile navigation taking the longest to complete. The
+main reason the mobile navigation took so long was because I coded it from scratch with pure CSS and no javaScript. I
+used the `:checked` pseudo-class to toggle the menu open and closed.
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+I used flexbox to position the elements on the page and used floats for part of the navigation. I used the `:before` and
+`:after` pseudo-classes to create the lines on the navigation. There's a slight animation when opening and closing the
+menu to make it a less jarring experience. I feel like this project has helped me get a better grasp of how to use CSS
+for things I would normally use JavaScript for. It's also given me the opportunity to practice more CSS in general. I
+hope to before more comfortable with vanilla CSS over time and become less reliant on frameworks like Bootstrap or
+TailwindCSS.
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge.
+The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the
+given user stories.
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
-
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [ritabradley.dev](https://ritabradley.dev)
+- GitHub [@ritabradley](https://github.com/ritabradley)
+- Twitter [@ritabradley_dev](https://twitter.com/ritabradley_dev)
