@@ -1,0 +1,18 @@
+@import url(https://fonts.bunny.net/css?family=crimson-pro:200|lora:500,700|montserrat:400,500,700);
+
+:root {
+	--black: hsl(270, 4%, 9%);
+	--white: hsl(0, 0%, 100%);
+	--text-xxs: 10px;
+	--text-xs: 12px;
+	--text-sm: 14px;
+	--text-normal: 18px;
+	--text-lg: 24px;
+	--text-xl: 36px;
+	--text-xxl: 48px;
+	--font-light: 200;
+	--font-normal: 400;
+	--font-medium: 500;
+	--font-bold: 700;
+	--shadow: 0 4px 4px hsla(0, 0%, 0%, 0.25);
+}
